@@ -25,3 +25,4 @@ pool.getConnection((err, connection) => {
 });
 
 module.exports = pool;
+console.log("Database:", process.env.DB_NAME);
